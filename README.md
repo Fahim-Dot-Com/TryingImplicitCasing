@@ -1,5 +1,4 @@
 # TryingImplicitCasing
-# C# Implicit Casting Example
 
 This is a simple C# console application that demonstrates **implicit casting** (also known as automatic type conversion) from an `int` to a `double`.
 
