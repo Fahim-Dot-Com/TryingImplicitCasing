@@ -1,0 +1,25 @@
+
+---
+
+## 📁 `.gitattributes`
+
+Same as before — suitable for C# projects:
+
+```gitattributes
+# Treat all C# files as text
+*.cs text
+
+# Normalize line endings for consistency
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=lf
+
+# Mark build output as binary
+bin/** binary
+obj/** binary
+
+# Default for all files
+* text=auto
+
+# Handle Markdown files
+*.md text
